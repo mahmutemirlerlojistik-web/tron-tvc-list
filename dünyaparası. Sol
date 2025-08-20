@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "https://github.com/tronprotocol/trc20/blob/master/contracts/TRC20.sol";
+
+contract DunyaParasi is TRC20 {
+    address public kurucu = 0xYOUR_WALLET_ADDRESS; // Mahmut Özen’in cüzdan adresi
+    string private kurucuAdi = "Mahmut Özen";
+
+    constructor() TRC20("Dünya Parası", "DWP") {
+        _mint(kurucu, 100_000_000 * 10 ** decimals()); // 100 milyon toplam arz
+    }
+
+    function getKurucuAdi() public view returns (string memory) {
+        return kurucuAdi;
+    }
+}
