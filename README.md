@@ -44,7 +44,7 @@ your token address.
 * `logoURI`[Required]:WMC the logo URI of your token.
 * `homepage`[Required]:WMC the home page of your token.
 * `MarketCapLink`[Optional]:https://coinmarketcap.com / the coinmarketcap or coingecko link for your token.
-* `existingMarkets`[Required]: where to trade with your token.
+* `existingMarkets`[Required]:https://www.tronlink.org/ where to trade with your token.
 3) Submit PR with the changed JSON file.
 
 
