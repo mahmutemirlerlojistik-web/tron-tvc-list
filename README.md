@@ -39,11 +39,11 @@ Follow the steps below to add a new token：
 ```
 * `address`[Required]: https://github.com/tronprotocol/trc20/blob/master/contracts/TRC20.sol";
 your token address.
-* `symbol`[Required]: your token symbol.
+* `symbol`[Required]:WMC your token symbol.
 * `name`[Required]:WorldCerrency your token name
-* `logoURI`[Required]: the logo URI of your token.
-* `homepage`[Required]: the home page of your token.
-* `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
+* `logoURI`[Required]:WMC the logo URI of your token.
+* `homepage`[Required]:WMC the home page of your token.
+* `MarketCapLink`[Optional]:https://coinmarketcap.com / the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
 3) Submit PR with the changed JSON file.
 
