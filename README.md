@@ -6,8 +6,8 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "    ",
-      "symbol": "WMC",
+      "address":tronlik "TFrwwXvmLozRFPpU4R7dKnyCxhVGkYBYbh", 
+      "symbol": "WMC", 
       "name": "MorldCerrency",
       "decimals": 6,
       "logoURI": "
@@ -37,7 +37,8 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `address`[Required]: your token address.
+* `address`[Required]: https://github.com/tronprotocol/trc20/blob/master/contracts/TRC20.sol";
+your token address.
 * `symbol`[Required]: your token symbol.
 * `name`[Required]: your token name.
 * `logoURI`[Required]: the logo URI of your token.
